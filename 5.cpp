@@ -16,7 +16,7 @@ int main()
                 a[i][b]=rand()%10;
         }
     }
-    //asfa
+    
     int Total=0;  
     
     cout<<endl<<"Output:"<<endl<<endl;
