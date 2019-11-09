@@ -25,10 +25,10 @@ Contet-Type: application/vnd.api+json
   	"hobbies"		: ["listening to music", "reading book", "enjoying life"],
   	"is_married"		: false,
   	"list_school"		: {
-		"Universitas Gadjah Mada"	: 2015, 2019, "Mathematics",
-		"SMA Negeri 2 Surakarta"	: 2012, 2015, "Natural Science",
-		"SMP Negeri 2 Surakarta"	: 2009, 2012, "null",
-		"SD Negeri Karangasem 2 Surakarta"  : 2003, 2009, "null"
+		"Universitas Gadjah Mada"	: {"year_in": 2015, "year_out": 2019, "major": "Mathematics"},
+		"SMA Negeri 2 Surakarta"	: {"year_in": 2012, "year_out": 2015, "major": "Natural Science}",
+		"SMP Negeri 2 Surakarta"	: {"year_in": 2009, "year_out": 2012, "major": "null"},
+		"SD Negeri Karangasem 2 Surakarta"  : {"year_in": 2003, "year_out": 2009, "major": "null"}
 		}
 	"skills"		: {
 		"matlab"			: "advanced",
