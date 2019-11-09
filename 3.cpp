@@ -20,7 +20,7 @@ int main()
         cin>>arr[i-1];
     }
     
-    //int arr[] = { 2, 10, 23, 9, 17, 19, 12};
+    
     int ukuran;
 
     ukuran = sizeof(arr)/sizeof(arr[0]);
