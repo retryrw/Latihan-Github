@@ -1,0 +1,47 @@
+Contet-Type: application/vnd.api+json
+
+{
+  "data": [{
+    "type": "person_name",
+    "id": "1",
+    "attributes": {
+      "title": "JSON:API personal information",
+      "body": "The shortest article. Ever.",
+      "created": "2019-11-09T14:56:29.000Z",
+      "updated": "2019-11-09T14:59:28.000Z"
+    },
+    "relationships": {
+      "author": {
+        "data": {"name"	: "Retry", "age": 22}
+      }
+    }
+  }],
+  "included": [
+    {
+        "name"			: "Retry",
+	"age"			: 22,
+  	"address"		: "Tohudan Kulon RT. 02/ RW. 03, Tohudan, Colomadu, Karanganyar",
+  	"hobbies"		: ["listening to music", "reading book", "enjoying life"],
+  	"is_married"		: false,
+  	"list_school"		: {
+		"Universitas Gadjah Mada"	: 2015, 2019, "Mathematics",
+		"SMA Negeri 2 Surakarta"	: 2012, 2015, "Natural Science",
+		"SMP Negeri 2 Surakarta"	: 2009, 2012, "null",
+		"SD Negeri Karangasem 2 Surakarta"  : 2003, 2009, "null"
+		}
+	"skills"		: {
+		"matlab"			: "advanced",
+		"c++"				: "beginner",
+		"python"			: "beginner",
+		"sidek"				: "beginner",
+		"mathematical analysis"		: "advanced",
+		"mathematical programming"	: "advanced",
+		"statistical data analysis"	: "advanced",
+		"writing"			: "advanced"
+		}
+  	"interest_in_coding"	: true
+      }
+    }
+  ]
+}
+
