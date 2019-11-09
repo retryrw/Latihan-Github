@@ -20,6 +20,7 @@ Contet-Type: application/vnd.api+json
     {
         "name"			: "Retry",
 	"age"			: 22,
+	    "attribute" :{
   	"address"		: "Tohudan Kulon RT. 02/ RW. 03, Tohudan, Colomadu, Karanganyar",
   	"hobbies"		: ["listening to music", "reading book", "enjoying life"],
   	"is_married"		: false,
@@ -40,6 +41,7 @@ Contet-Type: application/vnd.api+json
 		"writing"			: "advanced"
 		}
   	"interest_in_coding"	: true
+    			}
       }
     }
   ]
